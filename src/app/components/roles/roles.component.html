@@ -1,1 +1,38 @@
-<p>roles works!</p>
+<h1>LETS MAKE ANOTHER ROLE </h1>
+<div class="row">
+    <div class="col-3">
+        <h2>{{firstName}}</h2>
+    </div>
+<div class="col-3 ">{{figure}}</div>
+
+<div class="col-3">
+    <p>{{isActive}}</p>
+</div>
+
+<div class="col-3"><p>{{currentDate}}</p>
+</div>
+<div class="col-3">
+    {{selectDate}}
+</div>
+</div>
+
+<div class="row">
+    <div class="col-3">
+        <input type="text" class="form-control" [value]="firstName"/>
+    </div>
+    <div class="col-3"><input [type]="inputType"></div>
+    <div class="col-3"><input [(ngModel)]="firstName" ></div>
+  <div class="col-3"><select [(ngModel)]="selectDate">
+    <option value="firstName">{{firstName}}</option>
+    <option value="firstName">{{secondName}}</option>
+    <option value="firstName">{{lastName}}</option>
+  </select></div>
+  
+  <div class="col-3">
+    <button class="btn btn-success" (click)="firstFunction()">Show Alert</button>
+  </div>
+
+  <div class="col-3">
+    <button class="btn btn-success" (click)="secondFunction('welcome to react')">Show Alert</button>
+  </div>
+</div>

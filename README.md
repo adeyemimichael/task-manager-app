@@ -57,3 +57,28 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ 
+
+
+ THINGS THAT I HAVE LEARNT IN THIS ANGULAR COURSE IS 
+SETTING UP OF AN ANGULAR app: and angular is a component oriented framework of react and we can use it for production ready apps. when i want to start an angular project i will run the command ~ng create @angular/latest name-of-file 
+if i want to create a component in a folder in an angular project i will first open the integrated terminal on the folder and after that i will run ~ ng generate component file-name 
+
+to run it i will use the command ng serve
+
+    I HAVE ALSO LEARNT THE FOLLOWING 
+    creating a variable 
+    adding bootstrap and tailwind to angular 
+    interpolation : which is a processs whereby i can render the variavbles that is written in the component.ts to the html component
+    data binding property binding  : this is a way of linking a variable with an element by makein use of value or type 
+
+    two way binding 
+this is used mainly in forms and it make use of the ngModel to link data from the component ts to the html and it can change real time data input. so this can work when a user want to submit a form and you want the name to show in real time as they are typing it.
+event binding is when we use function to bind with html 
+
+event binding 
+
+today's topic 
+directives
+STRUCTURAL DIRECTIVES -- ngif, ngfor 
+ATTRIBUTE -- ngstyle , ngstyle
